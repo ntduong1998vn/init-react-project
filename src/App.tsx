@@ -1,11 +1,7 @@
-import Home from "./pages/Home";
+import Home from './pages/Home'
 
 function App() {
-  return (
-    <ChakraProvider>
-      <Home />
-    </ChakraProvider>
-  );
+    return <Home />
 }
 
-export default App;
+export default App
