@@ -4,7 +4,6 @@ import * as ReactDOM from 'react-dom/client'
 
 import App from './App'
 
-import './index.css'
 // 2. Extend the theme to include custom colors, fonts, etc
 // const colors = {
 //     brand: {
@@ -16,9 +15,9 @@ import './index.css'
 // const theme = extendTheme({ colors })
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-        <ChakraProvider>
-            <App />
-        </ChakraProvider>
-    </React.StrictMode>,
+  <React.StrictMode>
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>,
 )
