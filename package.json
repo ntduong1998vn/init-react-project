@@ -47,6 +47,5 @@
       "npm run format",
       "git add ."
     ]
-  },
-  "pre-commit": "lint-staged"
+  }
 }
