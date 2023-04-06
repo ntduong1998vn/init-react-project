@@ -11,7 +11,7 @@
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json} --config ./.prettierrc",
     "postinstall": "husky install",
-    "precommit": "lint-staged"
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
@@ -47,5 +47,6 @@
       "npm run format",
       "git add ."
     ]
-  }
+  },
+  "pre-commit": "lint-staged"
 }
