@@ -26,3 +26,5 @@ const Configuration: UserConfig = {
 }
 
 module.exports = Configuration
+
+// Read more: https://commitlint.js.org/#/reference-configuration?id=config-option-cli
