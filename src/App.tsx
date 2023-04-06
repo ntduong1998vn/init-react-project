@@ -7,7 +7,11 @@ function App() {
     
     
     
-    <Home />
+    <Ho
+    me />
+
+
+    
 }
 
 
