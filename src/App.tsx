@@ -1,7 +1,12 @@
 import Home from '@app/pages/HomePage'
 
 function App() {
-    return <Home />
+    return <Home
+    
+    
+    
+    
+    />
 }
 
 export default App
