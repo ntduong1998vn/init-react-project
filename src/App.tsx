@@ -7,11 +7,13 @@ function App() {
     
 
 
+
+
+
     
     
     
-    <Ho
-    me />
+    <Home />
 
 
 
